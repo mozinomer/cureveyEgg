@@ -1,0 +1,491 @@
+@media only screen and (max-width: 1600px) {
+
+    /* font-size 20=18 */
+    .menuCOntainer ul li a,
+    .contentCOntainerBanner p,
+    .contentLeft p,
+    .callToAction h4,
+    .boxData h2,
+    .aboutContentText p {
+        font-size: 18px;
+    }
+
+    /* font-size 18=16 */
+    .callToAction p {
+        font-size: 16px;
+    }
+
+    /* font-size 54= 46 */
+    .contentCOntainerBanner h2,
+    .contentLeft h2,
+    h2.us,
+    .whyUs h2,.contentCOntainerBanner h2,.contentCOntainerBanner h2 {
+        font-size: 46px;
+    }
+
+    .chatSetting {
+        padding: 50px 0 120px;
+    }
+
+    h2.us {
+        margin-bottom: 50px;
+    }
+}
+
+
+@media only screen and (max-width: 1366px) {
+
+    /* font-size 20=16 */
+    .menuCOntainer ul li a,
+    .contentCOntainerBanner p,
+    .contentLeft p,
+    .callToAction h4,
+    .boxData h2,
+    .aboutContentText p {
+        font-size: 16px;
+    }
+
+    /* font-size 18=14 */
+    .callToAction p {
+        font-size: 14px;
+    }
+
+    /* font-size 16=14 */
+    .whyUs p {
+        font-size: 14px;
+    }
+
+    /* font-size 54= 40 */
+    .contentCOntainerBanner h2,
+    .contentLeft h2,
+    h2.us,
+    .whyUs h2 {
+        font-size: 40px;
+    }
+
+    .chatSetting {
+        padding: 30px 0 80px;
+    }
+    .bannerMain {
+        background-position: right;
+       
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    /* font-size 20=16 */
+    .menuCOntainer ul li a,
+    .contentCOntainerBanner p,
+    .contentLeft p,
+    .callToAction h4,
+    .boxData h2,
+    .aboutContentText p,
+    a.phone-num {
+        font-size: 14px;
+    }
+
+    /* font-size 18=14 */
+    a.right {
+        font-size: 14px;
+    }
+
+    /* font-size 16=14 */
+    .whyUs p,
+    .google-map a.google {
+        font-size: 14px;
+    }
+
+    /* font-size 54= 36 */
+    .contentCOntainerBanner h2,
+    .contentLeft h2,
+    h2.us,
+    .whyUs h2,
+    h1.egg {
+        font-size: 36px;
+    }
+
+    .rightCallToAction a:first-child {
+        padding: 7px;
+
+        margin-right: 2px;
+    }
+
+    .menuRight {
+        width: 100%;
+        max-width: 30%;
+    }
+
+    .menuLeft {
+        width: 100%;
+        max-width: 18%;
+    }
+
+    .chatSetting {
+        padding: 30px 0 50px;
+    }
+    
+    .blue-after::after {
+        position: absolute;
+        top: 0;
+        height: 50%;
+        width: 8px;
+        background-color: #1570e7;
+        content: "";
+        border-top-right-radius: 11px;
+        border-bottom-right-radius: 11px;
+        margin: auto 0;
+        bottom: 0;
+    }
+
+    .blue-after::before {
+        position: absolute;
+        top: 0;
+        height: 50%;
+        width: 8px;
+        background-color: #1570e7;
+        content: "";
+        border-top-right-radius: 11px;
+        border-bottom-right-radius: 11px;
+        margin: auto 0;
+        bottom: 0;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .menuRight,
+    .menuLeft {
+        display: none;
+    }
+
+    .bar1,
+    .bar2,
+    .bar3 {
+        width: 30px;
+        height: 3px;
+        background-color: #ffffff;
+        margin: 6px 0;
+        transition: 0.4s;
+    }
+
+    .change .bar1 {
+        transform: rotate(-45deg) translate(-6px, 4px);
+    }
+
+    .menu-bar.change div {
+        background-color: white;
+    }
+
+    .change .bar2 {
+        opacity: 0;
+    }
+
+    .change .bar3 {
+        transform: rotate(45deg) translate(-8px, -7px);
+    }
+
+    .change .bar3 {
+        transform: rotate(45deg) translate(-8px, -7px);
+    }
+
+
+
+    .menu-bar {
+        display: block;
+        position: relative;
+        width: 100%;
+        max-width: 5%;
+    }
+
+    .mobileMenu ul {
+        display: block;
+        padding: 40px 30px;
+    }
+
+    .mobileMenu li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .mobileMenu {
+        display: block;
+        position: fixed;
+        z-index: 9999999;
+        background: white;
+        top: 0;
+        left: -110%;
+        bottom: 0;
+        width: 75vw;
+        right: 0;
+        min-height: 100vh;
+        transition: 0.6s all;
+        color: #D3D3D3;
+    }
+
+    .mobileMenu.active {
+        left: 0px;
+    }
+
+    .menu-bar {
+        display: block;
+        position: absolute;
+        width: 100%;
+        max-width: 5%;
+        right: 31px;
+        top: 15px;
+    }
+
+    .mobileMenu ul li a {
+        color: black;
+    }
+
+    .contentLeft p,
+    .rightCallToAction {
+        margin: 20px 0;
+    }
+
+    .iconContainer {
+        display: none;
+    }
+
+    .boxData h2 {
+        font-size: 20px;
+    }
+
+    h2.us::after {
+        content: none;
+    }
+
+    .chatSetting {
+        padding: 20px 0 20px;
+    }
+
+    .rightContainer {
+        width: 100%;
+        max-width: 90%;
+        margin-left: auto;
+    }
+
+    h1.us {
+        display: none;
+    }
+
+
+    .footer-end .row .col-md-4:first-child {
+        display: none;
+    }
+
+    .socail-links ul li a i {
+        color: white;
+        font-size: 23px;
+    }
+
+    .imageLogo,
+    .menuMain {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+        height: 58px;
+    }
+
+    .bannerMain {
+        display: none;
+    }
+
+    .company-logo a img {
+        padding: 8px 0 0;
+    }
+
+    .on-mobile {
+        display: block;
+    }
+
+    h2.on-mobile {
+        font-size: 30px;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .rightCallToAction a:last-child {
+        display: none;
+    }
+
+    .mobile-display a:last-child {
+        display: block;
+    }
+
+    .mobile-display {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .google-map .col:first-child {
+        display: none;
+    }
+
+    .google-map a.google {
+
+
+        padding: 5px 20px;
+    }
+
+    .google-map a.google::after {
+        right: 4px;
+        background-color: #848484;
+        width: 11px;
+        height: 2px;
+        top: 1px;
+        bottom: 0;
+        content: "";
+        position: absolute;
+        margin: auto;
+    }
+
+    .callToAction {
+        position: relative;
+    }
+
+    .callToAction::after {
+        position: absolute;
+        /* top: 0; */
+        content: "";
+        background-image: url(../images/mobile-img.png);
+        width: 18%;
+        bottom: 21px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 65px;
+        right: 0;
+    }
+
+    .rightCallToAction a:first-child {
+        width: 100%;
+        max-width: 50%;
+        margin: 50px auto;
+        display: block;
+    }
+
+    .upload-file .row {
+        display: block;
+    }
+
+    .upload-file .col:last-child {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* color: #969696; */
+        width: 100%;
+        max-width: 60%;
+        margin: 0 auto;
+        border-radius: 8px;
+    }
+
+
+    .send-message {
+        padding: 10px;
+    }
+
+    body.active {
+        position: fixed;
+    }
+
+    header.active {
+
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+
+    .container-fluid.for-color::after {
+        min-height: 58px;
+    }
+    /* mobile-font-size */
+    .callToAction h4
+    {
+        font-size: 17px;
+    }
+    .contentLeft h2
+    {
+        font-size: 30px;
+    }
+    .callToAction p
+    {
+        font-size: 15px;
+    }
+    .callToAction {
+        padding: 50px 0 100px;
+    }
+    .boxData p
+    {
+        font-size: 17px;
+    }
+    h2.us
+    {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    .aboutContentText p
+    {
+        font-size: 17px;
+    }
+    .contentLeft p
+    {
+        font-size: 17px;
+    }
+    .whyUs h2
+    {
+        font-size: 30px;
+        text-align: left;
+        padding: 30px 0;
+    }
+    .whyUs p
+    {
+        font-size: 17px;
+        text-align: left;
+    }
+    .upload-file .container, .upload-file .container .row, .upload-file .container .row .col {
+        padding-left: 0;
+    }
+    .google-map a.google
+    {
+        font-size: 13px;
+    }
+    a.phone-num
+    {
+        font-size: 17px;
+    }
+    .google-map .col {
+        padding: 0;
+    }
+    .mobile-contact
+    {
+        display: block;
+    }
+    .mobile-contact {
+        font-size: 30px;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .send-message a::after {
+        position: absolute;
+        top: 0;
+        content: "";
+        background-color: white;
+        right: -30px;
+        width: 20px;
+        height: 1px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+}
