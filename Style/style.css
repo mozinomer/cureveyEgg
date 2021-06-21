@@ -304,6 +304,10 @@ img {
     padding: 40px 0;
     background-color: #111112;
     /* padding: 40px 8%; */
+    background-image: url('../1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h2.us {
