@@ -18,3 +18,15 @@ if ($(window).width() < 767) {
 	});
 }
 
+function myFunction2(x) {
+
+	$(".login-facebook").toggleClass("active");
+	$(".menu-bar.facebook").toggleClass("change");
+	
+}
+function myFunction3(x) {
+
+	$(".login-facebook").toggleClass("active");
+	$(".menu-bar.facebook").toggleClass("change");
+	
+}
